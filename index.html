@@ -25,17 +25,39 @@
                 </ul>
             </li>
             <li>
-                <h4>Arima (Java)</h4>
+                <h4>Arimaa (Java)</h4>
                 <ul>
                     <li>Source code: <a href="https://github.com/Jernik/Arimaa">https://github.com/Jernik/Arimaa</a></li>
-                    <li>Description</li>
+                    <li><a href="https://en.wikipedia.org/wiki/Arimaa">What is Arimaa?</a></li>
+                    <li>Worked with a 3 man team over a period of 8 weeks</li>
+                    <li>Code was previously inherited from other students after 8 weeks of work in a test driven development class.</li>
+                    <li>Written in Java, using Swing for the GUI</li>
+                    <li>We worked to refactor and implement another feature as the goal for this project. The feature we chose to implement was a basic AI</li>
+                    <li>Our AI choose a uniformly random move or identified that there were no valid moves left</li>
+                    <li>I edited the GUI to allow users to assign one or both players to be played by the AI</li>
+                    <li>
+                        The main refactoring we did was changing the internal structure of the program.
+                        We refactored our game pieces to be their own objects instead of being represented by characters and
+                        refactored the game board into its own object based on coordinates instead of being represented by a 2d array of characters.
+                    </li>
+                    <li>
+                        These refactoring broke almost all of our tests, due to the vastly changed interface of the internal components.
+                        This revealed how poorly written the 130 existing tests were, necessitating the rewriting of almost every test and adding additional tests (ended with 303 tests).
+                        We utilized mutation testing and code coverage to help us write useful tests.
+                    </li>
+                    <li>Ended with 93.5% code coverage and 89.8% mutation testing for non-gui code</li>
                 </ul>
             </li>
             <li>
                 <h4>UML Builder (Java)</h4>
                 <ul>
                     <li>Source code: <a href="https://github.com/swagluke/Team-Murica">https://github.com/swagluke/Team-Murica</a></li>
-                    <li>Description</li>
+                    <li>Worked with a 3 man team over 7 weeks</li>
+                    <li>For a design class, so using good design was a requirement for this project.</li>
+                    <li>Used Java byte code to find information about the files given by using <a href="http://asm.ow2.org/">ASM</a>.</li>
+                    <li>UML was build using <a href="http://www.graphviz.org/">Graphviz</a></li>
+                    <li>Worked in week long sprints, each week implementing 2 more design patterns to identify.</li>
+                    <li>Having test cases for all functionality was also required.</li>
                 </ul>
             </li>
         </ul>
