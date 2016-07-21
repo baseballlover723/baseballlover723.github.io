@@ -1,0 +1,22 @@
+{
+  "name": "baseballlover723.github.io",
+  "version": "1.0.0",
+  "description": "my website / portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baseballlover723/baseballlover723.github.io.git"
+  },
+  "author": "Philip Ross",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baseballlover723/baseballlover723.github.io/issues"
+  },
+  "homepage": "https://github.com/baseballlover723/baseballlover723.github.io#readme",
+  "dependencies": {
+    "semantic-ui": "^2.2.2"
+  }
+}
