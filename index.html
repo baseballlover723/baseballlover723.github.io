@@ -8,31 +8,35 @@
 
     <!-- Site Properties -->
     <title>Philip Ross</title>
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/reset.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/site.css">
 
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/container.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/grid.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/header.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/menu.css">
-
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/divider.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/dropdown.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/segment.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/button.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/list.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/icon.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/sidebar.css">
-    <link rel="stylesheet" type="text/css" href="semantic/dist/components/transition.css">
-
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="index.css">
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
-    <script src="semantic/dist/components/visibility.js"></script>
-    <script src="semantic/dist/components/sidebar.js"></script>
-    <script src="semantic/dist/components/transition.js"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
     <script src="index.js" type="text/javascript"></script>
+
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/reset.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/site.css">-->
+
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/container.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/grid.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/header.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/image.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/menu.css">-->
+    <!--<link rel="stylesheet/less" type="text/css" href="/src/definitions/views/card.less">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/divider.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/dropdown.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/segment.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/button.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/list.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/icon.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/sidebar.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="semantic/dist/components/transition.css">-->
+
+    <!--<script src="semantic/dist/components/visibility.js"></script>-->
+    <!--<script src="semantic/dist/components/sidebar.js"></script>-->
+    <!--<script src="semantic/dist/components/transition.js"></script>-->
 </head>
 <body>
 
@@ -79,7 +83,7 @@
             </h1>
             <h2>This website is in progress</h2>
             <h3>Started: July 15th 2016</h3>
-            <h3>Updated: July 21st 2016</h3>
+            <h3>Updated: July 22nd 2016</h3>
             <!--<div class="ui huge primary button">Get Started <i class="right arrow icon"></i></div>-->
         </div>
 
@@ -88,256 +92,377 @@
     <div class="ui vertical stripe segment">
         <div class="ui middle aligned stackable grid container">
             <div class="row">
-                <h3>Notable Projects</h3>
-                <ul>
-                    <li>
-                        <h4>League Flash Stats (Ruby on Rails)</h4>
-                        <ul>
-                            <li>Source code: <a href="https://github.com/baseballlover723/league_flash_stats">https://github.com/baseballlover723/league_flash_stats</a>
-                            </li>
-                            <li>Website Link: <a href="http://league-flash-stats.herokuapp.com/">http://league-flash-stats.herokuapp.com/</a></li>
-                            <li>A website that mined League of Legends key-mapping data to compare various character win-rates
-                            </li>
-                            <li>Completed from idea to completion in 4 days</li>
-                            <li>Worked with and taught a remote friend Ruby on Rails</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Arimaa (Java)</h4>
-                        <ul>
-                            <li>Source code: <a
-                                    href="https://github.com/Jernik/Arimaa">https://github.com/Jernik/Arimaa</a>
-                            </li>
-                            <li><a href="https://en.wikipedia.org/wiki/Arimaa">What is Arimaa?</a></li>
-                            <li>Description: An implementation of the game Arimaa featuring a working AI, saving, loading, undoing, and basic Arimaa gameplay
-                            </li>
-                            <li>Worked with a 3 man team over a period of 8 weeks</li>
-                            <li>Code was previously inherited from other students after 8 weeks of work in a test driven development class.
-                            </li>
-                            <li>Written in Java, using Swing for the GUI</li>
-                            <li>We worked to refactor and implement another feature as the goal for this project. The feature we chose to implement was a basic
-                                AI
-                            </li>
-                            <li>Our AI choose a uniformly random move or identified that there were no valid moves left
-                            </li>
-                            <li>I edited the GUI to allow users to assign one or both players to be played by the AI
-                            </li>
-                            <li>
-                                The main refactoring we did was changing the internal structure of the program. We refactored our game pieces to be their own
-                                objects instead of being represented by characters and refactored the game board into its own object based on coordinates
-                                instead of being represented by a 2d array of characters.
-                            </li>
-                            <li>
-                                These refactoring broke almost all of our tests, due to the vastly changed interface of the internal components. This revealed
-                                how poorly written the 130 existing tests were, necessitating the rewriting of almost every test and adding additional tests
-                                (ended with 303 tests). We utilized mutation testing and code coverage to help us write useful tests.
-                            </li>
-                            <li>Ended with 93.5% code coverage and 89.8% mutation testing for non-gui code</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>UML Builder (Java)</h4>
-                        <ul>
-                            <li>Source code: <a href="https://github.com/swagluke/Team-Murica">https://github.com/swagluke/Team-Murica</a>
-                            </li>
-                            <li>A class project to display selected design patterns given Java source code</li>
-                            <li>Worked with a 3 man team over 7 weeks</li>
-                            <li>For a design class, so using good design was a requirement for this project.</li>
-                            <li>Used Java byte code to find information about the files given by using <a
-                                    href="http://asm.ow2.org/">ASM</a>.
-                            </li>
-                            <li>UML was build using <a href="http://www.graphviz.org/">Graphviz</a></li>
-                            <li>Worked in week long sprints, each week implementing 2 more design patterns to identify.
-                            </li>
-                            <li>Having test cases for all functionality was also required.</li>
-                        </ul>
-                    </li>
-                </ul>
+                <div class="ui raised segment">
+                    <h3>About Me</h3>
+                    <br/>
+                    <p>Hi, I'm Philip Ross also known as baseballlover723 online, a senior at Rose-Hulman Institute of Technology, graduating in May 2017.</p>
+                    <p>
+                        I got into programming when I inbetween my junior and senior year of high school (Summer 2013). I went to an engineering summer camp
+                        (Catapult) at Rose-Hulman and had a crash course in python, learning the language in a week and then making virtual tic tac toe complete
+                        with a decent AI during the next two weeks.
+                    </p>
+                    <p>
+                        Being pretty lazy, I didn't program again until I got to college when I enrolled in Rose-Hulman in Fall 2014 as a civil engineer. 3
+                        weeks in, I made a small program to open your computers CD tray and I realized that I wanted to program for a living. The next day, I
+                        switched my major to computer science.
+                    </p>
+                    <p>
+                        I think that people shouldn't write code to work, but instead write code so it can't possibly be wrong. I think that programming in this
+                        kind of mindset helps reduce bugs, since you not only think about what your code is supposed to do, but also, what could possibly go
+                        wrong. I like to use mutation testing to make sure that my code can't possibly be wrong.
+                    </p>
+                    <p>
+                        I dislike doing tedious work and so I enjoy making easy to use tools that make peoples lives easier by automating tedious tasks. I aim
+                        to make all my tools easy to use and to have good instructions, since a tool that is difficult to use, may as well not exist. I would
+                        rather spend a few hours making a tool to do a task for me so I'll never have to do it again.
+                    </p>
+                    <p>
+                        Outside of programming like to play League of Legends (<a href="http://na.op.gg/summoner/userName=baseballlover723">I'm high gold</a>),
+                        and enjoy playing almost any sport (except soccer). I also been playing the drumset and percussion for most of my life and I enjoy
+                        playing jazz or in a musical pit. I also enjoy pretty much any type of music (depending on my mood) except classical. I'm most
+                        definitely a cat person and "own" 2 formerly stray cats. I like cats since they are mostly self sufficient and are really funny
+                        sometimes.
+                    </p>
+                </div>
+            </div>
+            <!--<div class="row">-->
+            <!--<div class="ui cards">-->
+            <!--<div class="card">-->
+            <!--<div class="content">-->
+            <!--<div class="header">About Me</div>-->
+            <!--<div class="meta">Friend</div>-->
+            <!--<div class="description">-->
+            <!--Elliot Fu is a film-maker from New York.-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="row">-->
+            <!--<div class="ui divided items">-->
+            <!--<div class="item">-->
+            <!--<div class="image">-->
+            <!--<img src="/images/wireframe/image.png">-->
+            <!--</div>-->
+            <!--<div class="content">-->
+            <!--<a class="header">12 Years a Slave</a>-->
+            <!--<div class="meta">-->
+            <!--<span class="cinema">Union Square 14</span>-->
+            <!--</div>-->
+            <!--<div class="description">-->
+            <!--<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">-->
+            <!--</div>-->
+            <!--<div class="extra">-->
+            <!--<div class="ui label">IMAX</div>-->
+            <!--<div class="ui label"><i class="globe icon"></i> Additional Languages</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="item">-->
+            <!--<div class="image">-->
+            <!--<img src="/images/wireframe/image.png">-->
+            <!--</div>-->
+            <!--<div class="content">-->
+            <!--<a class="header">My Neighbor Totoro</a>-->
+            <!--<div class="meta">-->
+            <!--<span class="cinema">IFC Cinema</span>-->
+            <!--</div>-->
+            <!--<div class="description">-->
+            <!--<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">-->
+            <!--</div>-->
+            <!--<div class="extra">-->
+            <!--<div class="ui right floated primary button">-->
+            <!--Buy tickets-->
+            <!--<i class="right chevron icon"></i>-->
+            <!--</div>-->
+            <!--<div class="ui label">Limited</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="item">-->
+            <!--<div class="image">-->
+            <!--<img src="/images/wireframe/image.png">-->
+            <!--</div>-->
+            <!--<div class="content">-->
+            <!--<a class="header">Watchmen</a>-->
+            <!--<div class="meta">-->
+            <!--<span class="cinema">IFC</span>-->
+            <!--</div>-->
+            <!--<div class="description">-->
+            <!--<img src="/images/wireframe/short-paragraph.png" class="ui wireframe image">-->
+            <!--</div>-->
+            <!--<div class="extra">-->
+            <!--<div class="ui right floated primary button">-->
+            <!--Buy tickets-->
+            <!--<i class="right chevron icon"></i>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--</div>-->
+            <div class="row">
+                <div class="ui raised segment">
+                    <h3>Notable Projects</h3>
+                    <ul>
+                        <li>
+                            <h4>League Flash Stats (Ruby on Rails)</h4>
+                            <ul>
+                                <li>Source code: <a href="https://github.com/baseballlover723/league_flash_stats">https://github.com/baseballlover723/league_flash_stats</a>
+                                </li>
+                                <li>Website Link: <a href="http://league-flash-stats.herokuapp.com/">http://league-flash-stats.herokuapp.com/</a></li>
+                                <li>A website that mined League of Legends key-mapping data to compare various character win-rates
+                                </li>
+                                <li>Completed from idea to completion in 4 days</li>
+                                <li>Worked with and taught a remote friend Ruby on Rails</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Arimaa (Java)</h4>
+                            <ul>
+                                <li>Source code: <a
+                                        href="https://github.com/Jernik/Arimaa">https://github.com/Jernik/Arimaa</a>
+                                </li>
+                                <li><a href="https://en.wikipedia.org/wiki/Arimaa">What is Arimaa?</a></li>
+                                <li>Description: An implementation of the game Arimaa featuring a working AI, saving, loading, undoing, and basic Arimaa
+                                    gameplay
+                                </li>
+                                <li>Worked with a 3 man team over a period of 8 weeks</li>
+                                <li>Code was previously inherited from other students after 8 weeks of work in a test driven development class.
+                                </li>
+                                <li>Written in Java, using Swing for the GUI</li>
+                                <li>We worked to refactor and implement another feature as the goal for this project. The feature we chose to implement was a
+                                    basic AI
+                                </li>
+                                <li>Our AI choose a uniformly random move or identified that there were no valid moves left
+                                </li>
+                                <li>I edited the GUI to allow users to assign one or both players to be played by the AI
+                                </li>
+                                <li>
+                                    The main refactoring we did was changing the internal structure of the program. We refactored our game pieces to be their
+                                    own objects instead of being represented by characters and refactored the game board into its own object based on
+                                    coordinates instead of being represented by a 2d array of characters.
+                                </li>
+                                <li>
+                                    These refactoring broke almost all of our tests, due to the vastly changed interface of the internal components. This
+                                    revealed how poorly written the 130 existing tests were, necessitating the rewriting of almost every test and adding
+                                    additional tests (ended with 303 tests). We utilized mutation testing and code coverage to help us write useful tests.
+                                </li>
+                                <li>Ended with 93.5% code coverage and 89.8% mutation testing for non-gui code</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>UML Builder (Java)</h4>
+                            <ul>
+                                <li>Source code: <a href="https://github.com/swagluke/Team-Murica">https://github.com/swagluke/Team-Murica</a>
+                                </li>
+                                <li>A class project to display selected design patterns given Java source code</li>
+                                <li>Worked with a 3 man team over 7 weeks</li>
+                                <li>For a design class, so using good design was a requirement for this project.</li>
+                                <li>Used Java byte code to find information about the files given by using <a
+                                        href="http://asm.ow2.org/">ASM</a>.
+                                </li>
+                                <li>UML was build using <a href="http://www.graphviz.org/">Graphviz</a></li>
+                                <li>Worked in week long sprints, each week implementing 2 more design patterns to identify.
+                                </li>
+                                <li>Having test cases for all functionality was also required.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <div class="row">
-                <h3>Hackathon Projects</h3>
-                <ul>
-                    <li>
-                        <h4>Groupon Cat (Android) (36 hours): Hack Illinois 2014</h4>
-                        <ul>
-                            <li>Hackathon entry: <a href="http://devpost.com/software/groupon-cat">http://devpost.com/software/groupon-cat</a>
-                            </li>
-                            <li>Source code: <a href="https://github.com/Dagwaging/Practice">https://github.com/Dagwaging/Practice</a>
-                            </li>
-                            <li>An Android app that would give push notifications of nearby Groupon deals as the user walked within a user set distance, while
-                                not giving notifications for deals already seen
-                            </li>
-                            <li>Won the prize for "Best use of Groupon API"</li>
-                            <li>Worked mostly as a team of 2 over 36 hours. (2 additional teammates working on a parallel project)
-                            </li>
-                            <li>Was still learning java at the time, so I focused more on product design</li>
-                            <li>Concisely listed key details about Groupon deals, while linking to the official Groupon app to purchase.
-                            </li>
-                        </ul>
+                <div class="ui raised segment">
+
+                    <h3>Hackathon Projects</h3>
+                    <ul>
+                        <li>
+                            <h4>Groupon Cat (Android) (36 hours): Hack Illinois 2014</h4>
+                            <ul>
+                                <li>Hackathon entry: <a href="http://devpost.com/software/groupon-cat">http://devpost.com/software/groupon-cat</a>
+                                </li>
+                                <li>Source code: <a href="https://github.com/Dagwaging/Practice">https://github.com/Dagwaging/Practice</a>
+                                </li>
+                                <li>An Android app that would give push notifications of nearby Groupon deals as the user walked within a user set distance,
+                                    while not giving notifications for deals already seen
+                                </li>
+                                <li>Won the prize for "Best use of Groupon API"</li>
+                                <li>Worked mostly as a team of 2 over 36 hours. (2 additional teammates working on a parallel project)
+                                </li>
+                                <li>Was still learning java at the time, so I focused more on product design</li>
+                                <li>Concisely listed key details about Groupon deals, while linking to the official Groupon app to purchase.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Capital Pun: See What’s in Your Wallet (Ruby on Rails) (36 hours) (Hack Illinois 2016)</h4>
+                            <ul>
+                                <li>
+                                    Hackathon entry: <a href="http://devpost.com/software/capital-pun-see-what-s-in-your-wallet">http://devpost.com/software/capital-pun-see-what-s-in-your-wallet</a>
+                                </li>
+                                <li>
+                                    Source code: <a href="https://github.com/baseballlover723/capital-one">https://github.com/baseballlover723/capital-one</a>
+                                </li>
+                                <li>Website is no longer online. (We did our own hosting, so we took it down after the hackathon since it cost money to host it)
+                                </li>
+                                <li>
+                                    A website that provided data visualization for Capital One users, displaying diagrams such as a map of where the user made
+                                    transactions, and other items that other users who had similar spending habits bought.
+                                </li>
+                                <li>Worked as a team of 4 over 36 hours.</li>
+                                <li>
+                                    I essentially recreated the API we were supposed to use since Capital One's api was down the entire weekend. (by the time we
+                                    were notified that they wouldn't be fixed during the hackathon it was too late to start a new project)
+                                </li>
+                                <li>
+                                    Project was build using Ruby on Rails, with half of our team having no previous experience with Ruby on Rails
+                                </li>
+                                <li>
+                                    I worked on mostly the backend and eventually, creating data for our website to use (since the API was down)
+                                </li>
+                                <li>
+                                    I also implemented the logic for finding if two customers had similar spending habits by comparing the categorical
+                                    percentages and volume of each customers transactions.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Who Wants To Be A Twillionaire? (Python) (36 hours) (Hack Illinois 2015)</h4>
+                            <ul>
+                                <li>Hackathon entry: <a href="http://devpost.com/software/who-wants-to-be-a-twillionaire">http://devpost.com/software/who-wants-to-be-a-twillionaire</a>
+                                </li>
+                                <li>Source code: <a href="https://github.com/Dagwaging/SomethingCryptic">https://github.com/Dagwaging/SomethingCryptic</a>
+                                </li>
+                                <li>A bot that would play Twillo's Jeopardy text game, using Twillo's API to send text messages
+                                </li>
+                                <li>
+                                    The bot received the Jeopardy answer and then using an online database of Jeopardy questions and answers, found the correct
+                                    question, and used Twillo's API to text back the correct question, repeating until the bot ran out of Twillio credit.
+                                </li>
+                                <li>
+                                    Coded in about 4 hours at the beginning of the hackathon and continuously running while we worked on other projects.
+                                </li>
+                                <li>We were the first team to ever use a bot to play Twillo's Jeopardy game.</li>
+                                <li>Our bot scored magnitudes higher than any previous score.</li>
+                                <li>
+                                    Our bot ended up revealing some concurrency issues in Twillo's game server, as we answered questions fast enough to make
+                                    mark the correct question as wrong. (It would store a different answer then it texted us)
+                                </li>
+                                <li>I mainly worked on the web scraping part of the bot.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Git Fit (Angular.js 2.0) (48 hours) (Angular Attack 2016)</h4>
+                            <ul>
+                                <li>
+                                    Hackathon entry: <a href="https://www.angularattack.com/entries/2678-hair-force">https://www.angularattack.com/entries/2678-hair-force</a>
+                                </li>
+                                <li>
+                                    Source code: <a href="https://github.com/baseballlover723/angularattack2016-hairforce">https://github.com/baseballlover723/angularattack2016-hairforce</a>
+                                </li>
+                                <li>Website link: <a href="https://hairforce.2016.angularattack.io/">https://hairforce.2016.angularattack.io/</a></li>
+                                <li>
+                                    A weight loss manager that provides personalized workouts based on simple user feedback
+                                </li>
+                                <li>Worked with a team of 4 over 48 hours</li>
+                                <li>Our entire team learned Angular.js during the hackathon</li>
+                                <li>
+                                    I mainly worked on the backend, interacting with the Firebase database and creating most of the websites services
+                                </li>
+                                <li>
+                                    Note: this website has a bug that prevents the competition of workouts (user interface related bug, will be fixed sometime
+                                    during the summer)
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                     </li>
-                    <li>
-                        <h4>Capital Pun: See What’s in Your Wallet (Ruby on Rails) (36 hours) (Hack Illinois 2016)</h4>
-                        <ul>
-                            <li>
-                                Hackathon entry: <a href="http://devpost.com/software/capital-pun-see-what-s-in-your-wallet">http://devpost.com/software/capital-pun-see-what-s-in-your-wallet</a>
-                            </li>
-                            <li>
-                                Source code: <a href="https://github.com/baseballlover723/capital-one">https://github.com/baseballlover723/capital-one</a>
-                            </li>
-                            <li>Website is no longer online. (We did our own hosting, so we took it down after the hackathon since it cost money to host it)
-                            </li>
-                            <li>
-                                A website that provided data visualization for Capital One users, displaying diagrams such as a map of where the user made
-                                transactions, and other items that other users who had similar spending habits bought.
-                            </li>
-                            <li>Worked as a team of 4 over 36 hours.</li>
-                            <li>
-                                I essentially recreated the API we were supposed to use since Capital One's api was down the entire weekend. (by the time we
-                                were notified that they wouldn't be fixed during the hackathon it was too late to start a new project)
-                            </li>
-                            <li>
-                                Project was build using Ruby on Rails, with half of our team having no previous experience with Ruby on Rails
-                            </li>
-                            <li>
-                                I worked on mostly the backend and eventually, creating data for our website to use (since the API was down)
-                            </li>
-                            <li>
-                                I also implemented the logic for finding if two customers had similar spending habits by comparing the categorical percentages
-                                and volume of each customers transactions.
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Who Wants To Be A Twillionaire? (Python) (36 hours) (Hack Illinois 2015)</h4>
-                        <ul>
-                            <li>Hackathon entry: <a href="http://devpost.com/software/who-wants-to-be-a-twillionaire">http://devpost.com/software/who-wants-to-be-a-twillionaire</a>
-                            </li>
-                            <li>Source code: <a href="https://github.com/Dagwaging/SomethingCryptic">https://github.com/Dagwaging/SomethingCryptic</a>
-                            </li>
-                            <li>A bot that would play Twillo's Jeopardy text game, using Twillo's API to send text messages
-                            </li>
-                            <li>
-                                The bot received the Jeopardy answer and then using an online database of Jeopardy questions and answers, found the correct
-                                question, and used Twillo's API to text back the correct question, repeating until the bot ran out of Twillio credit.
-                            </li>
-                            <li>
-                                Coded in about 4 hours at the beginning of the hackathon and continuously running while we worked on other projects.
-                            </li>
-                            <li>We were the first team to ever use a bot to play Twillo's Jeopardy game.</li>
-                            <li>Our bot scored magnitudes higher than any previous score.</li>
-                            <li>
-                                Our bot ended up revealing some concurrency issues in Twillo's game server, as we answered questions fast enough to make mark
-                                the correct question as wrong. (It would store a different answer then it texted us)
-                            </li>
-                            <li>I mainly worked on the web scraping part of the bot.</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>Git Fit (Angular.js 2.0) (48 hours) (Angular Attack 2016)</h4>
-                        <ul>
-                            <li>
-                                Hackathon entry: <a href="https://www.angularattack.com/entries/2678-hair-force">https://www.angularattack.com/entries/2678-hair-force</a>
-                            </li>
-                            <li>
-                                Source code: <a href="https://github.com/baseballlover723/angularattack2016-hairforce">https://github.com/baseballlover723/angularattack2016-hairforce</a>
-                            </li>
-                            <li>Website link: <a href="https://hairforce.2016.angularattack.io/">https://hairforce.2016.angularattack.io/</a></li>
-                            <li>
-                                A weight loss manager that provides personalized workouts based on simple user feedback
-                            </li>
-                            <li>Worked with a team of 4 over 48 hours</li>
-                            <li>Our entire team learned Angular.js during the hackathon</li>
-                            <li>
-                                I mainly worked on the backend, interacting with the Firebase database and creating most of the websites services
-                            </li>
-                            <li>
-                                Note: this website has a bug that prevents the competition of workouts (user interface related bug, will be fixed sometime
-                                during the summer)
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                </li>
+                </div>
             </div>
             <div class="row">
-                <h3>Side Projects</h3>
-                <ul>
-                    <li>
-                        <h4>Pokemon Go Server Status Hipchat Bot (Node.js)</h4>
-                        <ul>
-                            <li>Source code: <a href="https://github.com/baseballlover723/hipchat-pokemon-go-server-status-bot">https://github.com/baseballlover723/hipchat-pokemon-go-server-status-bot</a>
-                            </li>
-                            <li>
-                                Atlassian Marketplace link: <a href="https://marketplace.atlassian.com/plugins/pokemon-go-server-status-bot/server/overview">https://marketplace.atlassian.com/plugins/pokemon-go-server-status-bot/server/overview</a>
-                            </li>
-                            <li>A Hipchat integration that notifies rooms when Pokemon Go's server go up or down.</li>
-                            <li>It scrapes a server status website to get its data</li>
-                            <li>Functional one day after Pokemon Go was released in the US</li>
-                            <li>Released on the Atlassian Marketplace 5 days after Pokemon Go's release</li>
-                            <li>
-                                Has been installed in over 150 rooms and is actively used in over 50 rooms spanning 7 countries 12 days after Pokemon Go's
-                                release
-                            </li>
-                            <li>One of the first chat bots for Pokemon Go on any sort of platform</li>
-                            <li>The only Pokemon Go related hipchat addon</li>
-                            <li>Rapidly added functionality after public release</li>
-                            <li>
-                                Note: the code quality of this project is not very high, since this project was extremely rushed, I would refactor it, but I
-                                believe that it is feature complete and I'm also afraid of breaking existing functionality since I didn't make any regression
-                                tests for this project.
-                            </li>
-                        </ul>
+                <div class="ui raised segment">
+                    <h3>Side Projects</h3>
+                    <ul>
+                        <li>
+                            <h4>Pokemon Go Server Status Hipchat Bot (Node.js)</h4>
+                            <ul>
+                                <li>Source code: <a href="https://github.com/baseballlover723/hipchat-pokemon-go-server-status-bot">https://github.com/baseballlover723/hipchat-pokemon-go-server-status-bot</a>
+                                </li>
+                                <li>
+                                    Atlassian Marketplace link: <a
+                                        href="https://marketplace.atlassian.com/plugins/pokemon-go-server-status-bot/server/overview">https://marketplace.atlassian.com/plugins/pokemon-go-server-status-bot/server/overview</a>
+                                </li>
+                                <li>A Hipchat integration that notifies rooms when Pokemon Go's server go up or down.</li>
+                                <li>It scrapes a server status website to get its data</li>
+                                <li>Functional one day after Pokemon Go was released in the US</li>
+                                <li>Released on the Atlassian Marketplace 5 days after Pokemon Go's release</li>
+                                <li>
+                                    Has been installed in over 150 rooms and is actively used in over 50 rooms spanning 7 countries 12 days after Pokemon Go's
+                                    release
+                                </li>
+                                <li>One of the first chat bots for Pokemon Go on any sort of platform</li>
+                                <li>The only Pokemon Go related hipchat addon</li>
+                                <li>Rapidly added functionality after public release</li>
+                                <li>
+                                    Note: the code quality of this project is not very high, since this project was extremely rushed, I would refactor it, but I
+                                    believe that it is feature complete and I'm also afraid of breaking existing functionality since I didn't make any
+                                    regression tests for this project.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>Displayable AVL Binary Tree (Java Swing)</h4>
+                            <ul>
+                                <li>Source code: <a href="https://github.com/baseballlover723/CSSE230DisplayableBinaryTree">https://github.com/baseballlover723/CSSE230DisplayableBinaryTree</a>
+                                </li>
+                                <li>Worked by myself originally in Fall of 2014 and refactored it in Spring of 2016</li>
+                                <li>Created a GUI wrapper to display modified AVL trees for my data structures class. (created out of a generic binary tree GUI
+                                    wrapper from a previous assignment)
+                                </li>
+                                <li>Used another thread to run the GUI, so the GUI would update even while using the Java debugger.</li>
+                                <li>Adopted as a standard tool for future iterations of the class.</li>
+                                <li>GUI is fully resizeable, and auto spaces and auto sizes nodes based on window size.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h4>League of Legends After Game Notifier (Ruby on Rails) (To be converted to Rails/Ember app)</h4>
+                            <ul>
+                                <li>
+                                    Source code: <a href="https://github.com/baseballlover723/after_game_notifier">https://github.com/baseballlover723/after_game_notifier</a>
+                                </li>
+                                <li>Website Link: <a href="lol-alerter.herokuapp.com">lol-alerter.herokuapp.com</a></li>
+                                <li>
+                                    This is functionally complete, but not presentable for release. I will add a friend to help me with the front end and will
+                                    convert the project to a Rails/Ember.js application. The backend will also receive significant tweaks in order to optimize
+                                    our API calls better
+                                </li>
+                                <li>
+                                    A website that checks if a League of Legends player is currently in a game through Riot's API and will notify the user when
+                                    that player is no longer in a game.
+                                </li>
+                                <li>
+                                    Started by myself, mostly completed it, and then iceboxed it, and will be restarted with a friend during the end of summer
+                                    2016.
+                                </li>
+                                <li>
+                                    Is currently a Ruby on Rails application, but will be converted to a Rails/Ember.js app. (My senior project will be a
+                                    Rails/Ember.js app)
+                                </li>
+                                <li>
+                                    One of the challenges of this app is balancing the time resolution of checking if the player is in a game vs the rate limit
+                                    of our multiple API keys. We want to always be near, but not over the rate limit of API keys to allow for the shortest time
+                                    interval given any amount of people using the site.
+                                </li>
+                                <li>
+                                    The architecture of this app will work well with a Rails/Ember.js app, since there is a significant client-server loop
+                                    interaction, but our API calls should be on our server to be more secure. (Query the server until the player is out of a
+                                    game)
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                     </li>
-                    <li>
-                        <h4>Displayable AVL Binary Tree (Java Swing)</h4>
-                        <ul>
-                            <li>Source code: <a href="https://github.com/baseballlover723/CSSE230DisplayableBinaryTree">https://github.com/baseballlover723/CSSE230DisplayableBinaryTree</a>
-                            </li>
-                            <li>Worked by myself originally in Fall of 2014 and refactored it in Spring of 2016</li>
-                            <li>Created a GUI wrapper to display modified AVL trees for my data structures class. (created out of a generic binary tree GUI
-                                wrapper from a previous assignment)
-                            </li>
-                            <li>Used another thread to run the GUI, so the GUI would update even while using the Java debugger.</li>
-                            <li>Adopted as a standard tool for future iterations of the class.</li>
-                            <li>GUI is fully resizeable, and auto spaces and auto sizes nodes based on window size.</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h4>League of Legends After Game Notifier (Ruby on Rails) (To be converted to Rails/Ember app)</h4>
-                        <ul>
-                            <li>
-                                Source code: <a href="https://github.com/baseballlover723/after_game_notifier">https://github.com/baseballlover723/after_game_notifier</a>
-                            </li>
-                            <li>Website Link: <a href="lol-alerter.herokuapp.com">lol-alerter.herokuapp.com</a></li>
-                            <li>
-                                This is functionally complete, but not presentable for release. I will add a friend to help me with the front end and will
-                                convert the project to a Rails/Ember.js application. The backend will also receive significant tweaks in order to optimize our
-                                API calls better
-                            </li>
-                            <li>
-                                A website that checks if a League of Legends player is currently in a game through Riot's API and will notify the user when that
-                                player is no longer in a game.
-                            </li>
-                            <li>
-                                Started by myself, mostly completed it, and then iceboxed it, and will be restarted with a friend during the end of summer 2016.
-                            </li>
-                            <li>
-                                Is currently a Ruby on Rails application, but will be converted to a Rails/Ember.js app. (My senior project will be a
-                                Rails/Ember.js app)
-                            </li>
-                            <li>
-                                One of the challenges of this app is balancing the time resolution of checking if the player is in a game vs the rate limit of
-                                our multiple API keys. We want to always be near, but not over the rate limit of API keys to allow for the shortest time
-                                interval given any amount of people using the site.
-                            </li>
-                            <li>
-                                The architecture of this app will work well with a Rails/Ember.js app, since there is a significant client-server loop
-                                interaction, but our API calls should be on our server to be more secure. (Query the server until the player is out of a game)
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-                </li>
+                </div>
             </div>
         </div>
     </div>
