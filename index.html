@@ -95,6 +95,7 @@
                         <ul>
                             <li>Source code: <a href="https://github.com/baseballlover723/league_flash_stats">https://github.com/baseballlover723/league_flash_stats</a>
                             </li>
+                            <li>Website Link: <a href="http://league-flash-stats.herokuapp.com/">http://league-flash-stats.herokuapp.com/</a></li>
                             <li>A website that mined League of Legends key-mapping data to compare various character win-rates
                             </li>
                             <li>Completed from idea to completion in 4 days</li>
@@ -183,6 +184,8 @@
                             <li>
                                 Source code: <a href="https://github.com/baseballlover723/capital-one">https://github.com/baseballlover723/capital-one</a>
                             </li>
+                            <li>Website is no longer online. (We did our own hosting, so we took it down after the hackathon since it cost money to host it)
+                            </li>
                             <li>
                                 A website that provided data visualization for Capital One users, displaying diagrams such as a map of where the user made
                                 transactions, and other items that other users who had similar spending habits bought.
@@ -238,6 +241,7 @@
                             <li>
                                 Source code: <a href="https://github.com/baseballlover723/angularattack2016-hairforce">https://github.com/baseballlover723/angularattack2016-hairforce</a>
                             </li>
+                            <li>Website link: <a href="https://hairforce.2016.angularattack.io/">https://hairforce.2016.angularattack.io/</a></li>
                             <li>
                                 A weight loss manager that provides personalized workouts based on simple user feedback
                             </li>
@@ -264,8 +268,7 @@
                             <li>Source code: <a href="https://github.com/baseballlover723/hipchat-pokemon-go-server-status-bot">https://github.com/baseballlover723/hipchat-pokemon-go-server-status-bot</a>
                             </li>
                             <li>
-                                Atlassian Marketplace link: <a
-                                    href="https://marketplace.atlassian.com/plugins/pokemon-go-server-status-bot/server/overview">https://marketplace.atlassian.com/plugins/pokemon-go-server-status-bot/server/overview</a>
+                                Atlassian Marketplace link: <a href="https://marketplace.atlassian.com/plugins/pokemon-go-server-status-bot/server/overview">https://marketplace.atlassian.com/plugins/pokemon-go-server-status-bot/server/overview</a>
                             </li>
                             <li>A Hipchat integration that notifies rooms when Pokemon Go's server go up or down.</li>
                             <li>It scrapes a server status website to get its data</li>
@@ -297,6 +300,40 @@
                             <li>Used another thread to run the GUI, so the GUI would update even while using the Java debugger.</li>
                             <li>Adopted as a standard tool for future iterations of the class.</li>
                             <li>GUI is fully resizeable, and auto spaces and auto sizes nodes based on window size.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h4>League of Legends After Game Notifier (Ruby on Rails) (To be converted to Rails/Ember app)</h4>
+                        <ul>
+                            <li>
+                                Source code: <a href="https://github.com/baseballlover723/after_game_notifier">https://github.com/baseballlover723/after_game_notifier</a>
+                            </li>
+                            <li>Website Link: <a href="lol-alerter.herokuapp.com">lol-alerter.herokuapp.com</a></li>
+                            <li>
+                                This is functionally complete, but not presentable for release. I will add a friend to help me with the front end and will
+                                convert the project to a Rails/Ember.js application. The backend will also receive significant tweaks in order to optimize our
+                                API calls better
+                            </li>
+                            <li>
+                                A website that checks if a League of Legends player is currently in a game through Riot's API and will notify the user when that
+                                player is no longer in a game.
+                            </li>
+                            <li>
+                                Started by myself, mostly completed it, and then iceboxed it, and will be restarted with a friend during the end of summer 2016.
+                            </li>
+                            <li>
+                                Is currently a Ruby on Rails application, but will be converted to a Rails/Ember.js app. (My senior project will be a
+                                Rails/Ember.js app)
+                            </li>
+                            <li>
+                                One of the challenges of this app is balancing the time resolution of checking if the player is in a game vs the rate limit of
+                                our multiple API keys. We want to always be near, but not over the rate limit of API keys to allow for the shortest time
+                                interval given any amount of people using the site.
+                            </li>
+                            <li>
+                                The architecture of this app will work well with a Rails/Ember.js app, since there is a significant client-server loop
+                                interaction, but our API calls should be on our server to be more secure. (Query the server until the player is out of a game)
+                            </li>
                         </ul>
                     </li>
                 </ul>
